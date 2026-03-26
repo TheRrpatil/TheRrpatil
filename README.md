@@ -107,11 +107,9 @@
 
 | Certification | Status |
 |---|---|
-| 🔴 OSCP — Offensive Security Certified Professional | ✅ Achieved |
 | 🟠 CEH — Certified Ethical Hacker | ✅ Achieved |
-| 🟡 eJPT — eLearnSecurity Junior Penetration Tester | ✅ Achieved |
-| 🟢 CompTIA Security+ | ✅ Achieved |
-| 🔵 CRTO — Certified Red Team Operator | 🔄 In Progress |
+| 🟡 VAPT — Vulnerability assessment and Penetration testing | ✅ Achieved |
+| 🟢 CCNA - Cisco certified network associate  | ✅ Achieved |
 
 </div>
 
@@ -121,7 +119,7 @@
 
 **CTF Profiles**
 
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=for-the-badge&logo=hackthebox&logoColor=9fef00)](https://app.hackthebox.com/profile/yourusername)
+
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=c11111)](https://tryhackme.com/p/yourusername)
 [![CTFtime](https://img.shields.io/badge/CTFtime-0d1117?style=for-the-badge&logo=target&logoColor=00ff41)](https://ctftime.org/user/0)
 
@@ -485,12 +483,5 @@
 <body>
 <div class="container">
 
-  <header>
-    <div class="badge">// Security Assessment Framework</div>
-    <h1>VAPT ROADMAP</h1>
-    <p class="subtitle">VULNERABILITY ASSESSMENT &amp; PENETRATION TESTING — END-TO-END LIFECYCLE</p>
-  </header>
-
-  <div class="phases">
-
+ 
   
