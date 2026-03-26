@@ -1,142 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VAPT Roadmap</title>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg: #080c10;
-    --surface: #0d1117;
-    --border: #1a2332;
-    --accent: #00ff88;
-    --accent2: #00b4ff;
-    --accent3: #ff4d6a;
-    --accent4: #ffb700;
-    --text: #c9d1d9;
-    --muted: #4a5568;
-    --glow: rgba(0,255,136,0.15);
-  }
+<!-- Header -->
+<div align="center">
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+```
+ ██████╗██╗   ██╗██████╗ ███████╗██████╗     ██████╗ ███████╗███████╗
+██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗    ██╔══██╗██╔════╝██╔════╝
+██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝    ██║  ██║█████╗  █████╗  
+██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗    ██║  ██║██╔══╝  ██╔══╝  
+╚██████╗   ██║   ██████╔╝███████╗██║  ██║    ██████╔╝███████╗██║     
+ ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═════╝ ╚══════╝╚═╝     
+```
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Sans', sans-serif;
-    min-height: 100vh;
-    overflow-x: hidden;
-    position: relative;
-  }
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Penetration+Tester+%7C+CTF+Player;Red+Team+%7C+Bug+Bounty+Hunter;Reverse+Engineer+%7C+Exploit+Dev;%22The+quieter+you+become%2C+the+more+you+hear%22)](https://git.io/typing-svg)
 
-  /* Scanline overlay */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      rgba(0,0,0,0.03) 2px,
-      rgba(0,0,0,0.03) 4px
-    );
-    pointer-events: none;
-    z-index: 100;
-  }
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=yourusername.yourusername&color=00ff41&style=flat-square)
+[![GitHub followers](https://img.shields.io/github/followers/yourusername?style=flat-square&color=00ff41&labelColor=0d1117&label=Followers)](https://github.com/yourusername)
 
-  /* Grid background */
-  body::after {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(0,255,136,0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,255,136,0.03) 1px, transparent 1px);
-    background-size: 40px 40px;
-    pointer-events: none;
-  }
+</div>
 
-  .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 60px 24px 100px;
-    position: relative;
-    z-index: 1;
-  }
+---
 
-  /* Header */
-  header {
-    text-align: center;
-    margin-bottom: 70px;
-    animation: fadeDown 0.8s ease both;
-  }
+<!-- Terminal Intro -->
+```bash
+┌──(root㉿kali)-[~]
+└─# whoami
 
-  .badge {
-    display: inline-block;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 3px;
-    color: var(--accent);
-    border: 1px solid var(--accent);
-    padding: 5px 14px;
-    margin-bottom: 18px;
-    text-transform: uppercase;
-    animation: pulse-border 2s ease-in-out infinite;
-  }
+  >> Security Researcher | CTF Enthusiast | Bug Bounty Hunter
+  >> Specializing in: Web App Pentesting, Network Security, Malware Analysis
+  >> Currently: Breaking things legally since 2018
+  >> Location: /dev/null
 
-  @keyframes pulse-border {
-    0%, 100% { box-shadow: 0 0 0 0 rgba(0,255,136,0.3); }
-    50% { box-shadow: 0 0 12px 2px rgba(0,255,136,0.2); }
-  }
+┌──(root㉿kali)-[~]
+└─# cat /etc/skills.conf
 
-  h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(52px, 8vw, 96px);
-    line-height: 0.95;
-    letter-spacing: 4px;
-    background: linear-gradient(135deg, #fff 0%, var(--accent) 50%, var(--accent2) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-shadow: none;
-    margin-bottom: 16px;
-  }
+  [OFFENSIVE]   Penetration Testing · Exploit Development · Social Engineering
+  [DEFENSIVE]   Threat Hunting · Incident Response · Digital Forensics
+  [RESEARCH]    CVE Research · Reverse Engineering · Vulnerability Analysis
+  [TOOLS]       Burp Suite · Metasploit · Ghidra · IDA Pro · Wireshark
 
-  .subtitle {
-    font-size: 14px;
-    color: var(--muted);
-    font-family: 'Share Tech Mono', monospace;
-    letter-spacing: 1px;
-  }
+┌──(root㉿kali)-[~]
+└─# █
+```
 
-  /* Phase layout */
-  .phases {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-    position: relative;
-  }
+---
 
-  /* Vertical connector line */
-  .phases::before {
-    content: '';
-    position: absolute;
-    left: 39px;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    background: linear-gradient(to bottom,
-      transparent,
-      var(--accent) 5%,
-      var(--accent) 95%,
-      transparent
-    );
-    opacity: 0.3;
-  }
+<!-- Stats Grid -->
+<div align="center">
 
-  .phase {
+## `// STATS & ACTIVITY`
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=00ff41&hide_border=false&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&hide_border=false&langs_count=8"/>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=yourusername&theme=dark&background=0d1117&border=00FF41&ring=00FF41&fire=ff6b35&currStreakLabel=00FF41&sideLabels=00FF41&dates=8b949e)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+<!-- Arsenal / Tech Stack -->
+## `// ARSENAL`
+
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
+![Bash](https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=00ff41)
+![C](https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=00ff41)
+![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00ff41)
+![Assembly](https://img.shields.io/badge/Assembly-0d1117?style=for-the-badge&logo=assemblyscript&logoColor=00ff41)
+![Go](https://img.shields.io/badge/Go-0d1117?style=for-the-badge&logo=go&logoColor=00ff41)
+![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=00ff41)
+
+**Offensive Tools**
+
+![Metasploit](https://img.shields.io/badge/Metasploit-0d1117?style=for-the-badge&logo=metasploit&logoColor=ff6b35)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-0d1117?style=for-the-badge&logo=burpsuite&logoColor=ff6b35)
+![Nmap](https://img.shields.io/badge/Nmap-0d1117?style=for-the-badge&logo=nmap&logoColor=ff6b35)
+![Wireshark](https://img.shields.io/badge/Wireshark-0d1117?style=for-the-badge&logo=wireshark&logoColor=ff6b35)
+![John](https://img.shields.io/badge/John_the_Ripper-0d1117?style=for-the-badge&logoColor=ff6b35)
+![Hashcat](https://img.shields.io/badge/Hashcat-0d1117?style=for-the-badge&logoColor=ff6b35)
+
+**Reverse Engineering & Forensics**
+
+![Ghidra](https://img.shields.io/badge/Ghidra-0d1117?style=for-the-badge&logoColor=c9d1d9)
+![IDA Pro](https://img.shields.io/badge/IDA_Pro-0d1117?style=for-the-badge&logoColor=c9d1d9)
+![GDB](https://img.shields.io/badge/GDB-0d1117?style=for-the-badge&logoColor=c9d1d9)
+![Volatility](https://img.shields.io/badge/Volatility-0d1117?style=for-the-badge&logoColor=c9d1d9)
+![Autopsy](https://img.shields.io/badge/Autopsy-0d1117?style=for-the-badge&logoColor=c9d1d9)
+
+**Platforms & OS**
+
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-0d1117?style=for-the-badge&logo=kalilinux&logoColor=00ff41)
+![Parrot OS](https://img.shields.io/badge/Parrot_OS-0d1117?style=for-the-badge&logo=linux&logoColor=00ff41)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41)
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=00ff41)
+
+</div>
+
+---
+
+<!-- CTF & Certifications -->
+## `// CERTIFICATIONS & PLATFORMS`
+
+<div align="center">
+
+| Certification | Status |
+|---|---|
+| 🔴 OSCP — Offensive Security Certified Professional | ✅ Achieved |
+| 🟠 CEH — Certified Ethical Hacker | ✅ Achieved |
+| 🟡 eJPT — eLearnSecurity Junior Penetration Tester | ✅ Achieved |
+| 🟢 CompTIA Security+ | ✅ Achieved |
+| 🔵 CRTO — Certified Red Team Operator | 🔄 In Progress |
+
+</div>
+
+<br>
+
+<div align="center">
+
+**CTF Profiles**
+
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=for-the-badge&logo=hackthebox&logoColor=9fef00)](https://app.hackthebox.com/profile/yourusername)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=c11111)](https://tryhackme.com/p/yourusername)
+[![CTFtime](https://img.shields.io/badge/CTFtime-0d1117?style=for-the-badge&logo=target&logoColor=00ff41)](https://ctftime.org/user/0)
+
+</div>
+
+---
+
+<!-- Recent Activity / Write-ups -->
+## `// RECENT WRITE-UPS & RESEARCH`
+
+<!-- Replace with your actual repos -->
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=ctf-writeups&theme=dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&icon_color=00ff41)](https://github.com/yourusername/ctf-writeups)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=pentest-toolkit&theme=dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&icon_color=00ff41)](https://github.com/yourusername/pentest-toolkit)
+
+---
+
+<!-- Contribution Snake -->
+## `// CONTRIBUTION MAP`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+---
+
+<!-- Contact -->
+## `// CONNECT`
+
+<div align="center">
+
+```
+[*] Opening secure channel...
+[*] Establishing encrypted connection...
+[+] Channel open. Awaiting message.
+```
+
+[![Twitter](https://img.shields.io/badge/Twitter-0d1117?style=for-the-badge&logo=x&logoColor=00ff41)](https://twitter.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00ff41)](https://linkedin.com/in/yourusername)
+[![Blog](https://img.shields.io/badge/Blog-0d1117?style=for-the-badge&logo=hashnode&logoColor=00ff41)](https://yourblog.com)
+[![Email](https://img.shields.io/badge/PGP_Email-0d1117?style=for-the-badge&logo=protonmail&logoColor=00ff41)](mailto:you@protonmail.com)
+
+<br>
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  "In a world of 1s and 0s, be the one who finds the     │
+│   gap between them."                                     │
+│                                                          │
+│  Bug bounty disclosures: Responsible. Always.            │
+│  All tools here are for authorized testing only.         │
+└─────────────────────────────────────────────────────────┘
+```
+
+![](https://komarev.com/ghpvc/?username=yourusername&color=00ff41&style=flat-square&label=PROFILE+VIEWS)
+
+</div>
     display: grid;
     grid-template-columns: 80px 1fr;
     gap: 24px;
