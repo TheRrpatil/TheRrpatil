@@ -120,30 +120,6 @@
 
 ---
 
-<!-- Recent Activity / Write-ups -->
-## `// RECENT WRITE-UPS & RESEARCH`
-
-<!-- Replace with your actual repos -->
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=ctf-writeups&theme=dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&icon_color=00ff41)](https://github.com/yourusername/ctf-writeups)
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=pentest-toolkit&theme=dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&icon_color=00ff41)](https://github.com/yourusername/pentest-toolkit)
-
----
-
-<!-- Contribution Snake -->
-## `// CONTRIBUTION MAP`
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
-
----
-
 <!-- Contact -->
 ## `// CONNECT`
 
@@ -162,15 +138,6 @@
 
 <br>
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  "In a world of 1s and 0s, be the one who finds the     │
-│   gap between them."                                     │
-│                                                          │
-│  Bug bounty disclosures: Responsible. Always.            │
-│  All tools here are for authorized testing only.         │
-└─────────────────────────────────────────────────────────┘
-```
 
 
 
