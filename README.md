@@ -57,21 +57,6 @@
 - 🐛 &nbsp;Bug Bounty: Actively reporting on private & public programs
 - 💬 &nbsp;Ask me about: Web app pentesting, exploit dev, OSINT techniques
 
----
-
-<!-- Stats Grid -->
-<div align="center">
-
-## `// STATS & ACTIVITY`
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=00ff41&hide_border=false&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=00ff41&hide_border=false&langs_count=8"/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=yourusername&theme=dark&background=0d1117&border=00FF41&ring=00FF41&fire=ff6b35&currStreakLabel=00FF41&sideLabels=00FF41&dates=8b949e)](https://git.io/streak-stats)
-
-</div>
-
----
 
 <!-- Arsenal / Tech Stack -->
 ## `// ARSENAL`
@@ -135,7 +120,7 @@
 
 **CTF & Practice Platforms**
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=c11111)](https://tryhackme.com/p/yourusername)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=c11111)](https://tryhackme.com/p/rrpatil)
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)](https://app.hackthebox.com/profile/yourusername)
 [![CTFtime](https://img.shields.io/badge/CTFtime-0d1117?style=for-the-badge&logo=clockify&logoColor=00ff41)](https://ctftime.org/team/yourid)
 
@@ -143,28 +128,9 @@
 
 **TryHackMe Stats**
 
-[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/yourusername.png)](https://tryhackme.com/p/yourusername)
+[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/rrpatil.png)](https://tryhackme.com/p/rrpatil)
 
 </div>
-
----
-
-<!-- Featured Projects -->
-## `// FEATURED PROJECTS`
-
-```bash
-┌──(root㉿kali)-[~]
-└─# ls -la ~/projects/
-```
-
-<div align="center">
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=your-pentest-toolkit&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=ff6b35&border_color=00ff41)](https://github.com/yourusername/your-pentest-toolkit)
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=your-ctf-writeups&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=ff6b35&border_color=00ff41)](https://github.com/yourusername/your-ctf-writeups)
-
-</div>
-
----
 
 <!-- Contact -->
 ## `// CONNECT`
