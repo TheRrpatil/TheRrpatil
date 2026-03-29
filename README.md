@@ -24,9 +24,9 @@
 ┌──(root㉿kali)-[~]
 └─# whoami
 
-  >> Security Researcher | CTF Enthusiast | Bug Bounty Hunter
-  >> Specializing in: Web App Pentesting, Network Security, Malware Analysis
-  >> Currently: Breaking things legally since 2018
+  >> Cyber Security Engineer | Certified Ethical Hacker | Penetration Tester
+  >> Specializing in: Web App Pentesting, Network Security, Mobile Security
+  >> Currently: Breaking things legally since 2025
   >> Location: /dev/null
 
 ┌──(root㉿kali)-[~]
@@ -35,13 +35,7 @@
   [OFFENSIVE]   Penetration Testing · Exploit Development · Social Engineering
   [DEFENSIVE]   Threat Hunting · Incident Response · Digital Forensics
   [RESEARCH]    CVE Research · Reverse Engineering · Vulnerability Analysis
-  [TOOLS]       Burp Suite · Metasploit · Ghidra · IDA Pro · Wireshark
-
-┌──(root㉿kali)-[~]
-└─# █
-```
-
----
+  [TOOLS]       Burp Suite · Metasploit · Ghidra · IDA Pro · Wireshark 
 
 <!-- Stats Grid -->
 <div align="center">
