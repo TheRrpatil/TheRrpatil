@@ -12,9 +12,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=Penetration+Tester+%7C+CTF+Player;Red+Team+%7C+Bug+Bounty+Hunter;Reverse+Engineer+%7C+Exploit+Dev;%22The+quieter+you+become%2C+the+more+you+hear%22)](https://git.io/typing-svg)
 
-![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=yourusername.yourusername&color=00ff41&style=flat-square)
-[![GitHub followers](https://img.shields.io/github/followers/yourusername?style=flat-square&color=00ff41&labelColor=0d1117&label=Followers)](https://github.com/yourusername)
-
 </div>
 
 ---
