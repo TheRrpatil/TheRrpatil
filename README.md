@@ -67,10 +67,7 @@
 ![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00ff41)
 ![Bash](https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=00ff41)
 ![C](https://img.shields.io/badge/C-0d1117?style=for-the-badge&logo=c&logoColor=00ff41)
-![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00ff41)
-![Assembly](https://img.shields.io/badge/Assembly-0d1117?style=for-the-badge&logo=assemblyscript&logoColor=00ff41)
-![Go](https://img.shields.io/badge/Go-0d1117?style=for-the-badge&logo=go&logoColor=00ff41)
-![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=00ff41)
+
 
 **Offensive Tools**
 
@@ -92,9 +89,6 @@
 **Platforms & OS**
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-0d1117?style=for-the-badge&logo=kalilinux&logoColor=00ff41)
-![Parrot OS](https://img.shields.io/badge/Parrot_OS-0d1117?style=for-the-badge&logo=linux&logoColor=00ff41)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=00ff41)
-![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=00ff41)
 
 </div>
 
@@ -121,7 +115,6 @@
 
 
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=c11111)](https://tryhackme.com/p/yourusername)
-[![CTFtime](https://img.shields.io/badge/CTFtime-0d1117?style=for-the-badge&logo=target&logoColor=00ff41)](https://ctftime.org/user/0)
 
 </div>
 
