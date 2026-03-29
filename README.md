@@ -120,7 +120,7 @@
 
 **CTF & Practice Platforms**
 
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=c11111)](https://tryhackme.com/p/rrpatil)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-0d1117?style=for-the-badge&logo=tryhackme&logoColor=c11111)](https://tryhackme.com/p/TheRrpatil)
 [![HackTheBox](https://img.shields.io/badge/HackTheBox-0d1117?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)](https://app.hackthebox.com/profile/yourusername)
 [![CTFtime](https://img.shields.io/badge/CTFtime-0d1117?style=for-the-badge&logo=clockify&logoColor=00ff41)](https://ctftime.org/team/yourid)
 
@@ -128,7 +128,7 @@
 
 **TryHackMe Stats**
 
-[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/rrpatil.png)](https://tryhackme.com/p/rrpatil)
+[![TryHackMe Badge](https://tryhackme-badges.s3.amazonaws.com/TheRrpatil.png)](https://tryhackme.com/p/TheRrpatil)
 
 </div>
 
